@@ -83,6 +83,12 @@ main {
   margin-inline: auto;
 }
 
+.daily,
+.guide,
+.urgent {
+  scroll-margin-top: 88px;
+}
+
 .hero {
   min-height: min(76svh, 760px);
   display: grid;
@@ -257,6 +263,11 @@ figure {
   width: 100%;
   aspect-ratio: 1.62;
   object-fit: cover;
+}
+
+.care-block .wide-guide img {
+  aspect-ratio: auto;
+  object-fit: contain;
 }
 
 .care-block.compact figure img {
