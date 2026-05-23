@@ -283,11 +283,15 @@ figcaption {
 }
 
 .cleaning {
-  grid-template-columns: minmax(260px, 36rem);
+  grid-template-columns: minmax(340px, 1.24fr) minmax(260px, .76fr);
 }
 
 .cleaning .muted {
   margin-top: 14px;
+}
+
+.disposal figure img {
+  object-position: center bottom;
 }
 
 .urgent {
