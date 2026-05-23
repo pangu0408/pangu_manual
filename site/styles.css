@@ -227,6 +227,14 @@ h3 {
   order: 2;
 }
 
+.care-block.multi-visual {
+  align-items: start;
+}
+
+.care-block.multi-visual figure {
+  grid-column: 2;
+}
+
 .care-block .copy ol,
 .care-block .copy ul {
   display: grid;
@@ -371,6 +379,10 @@ figcaption {
 
   .care-block:nth-of-type(even) .copy {
     order: initial;
+  }
+
+  .care-block.multi-visual figure {
+    grid-column: auto;
   }
 
   .care-block figure img,
